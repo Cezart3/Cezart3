@@ -38,7 +38,9 @@ for a real manufacturing workflow.
 
 ### 📫 Get in touch
 
+- 💼 [LinkedIn](https://www.linkedin.com/in/tocaciu-cezar-0865373b6/)
 - 📧 cezartocaciu233@gmail.com
 - 📍 Cluj-Napoca, Romania
 
 <sub>Open to backend / Python software roles.</sub>
+
