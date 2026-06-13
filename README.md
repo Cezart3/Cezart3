@@ -11,7 +11,7 @@ idea to a working, tested backend with a clean API.
 
 ### 🚀 Featured projects
 
-**[RentForYou](https://github.com/Cezart3/RentForYou)** · `Python` `FastAPI`
+**[KiraImobiliare](https://github.com/Cezart3/KiraImobiliare)** · `Python` `FastAPI`
 A rental-listings aggregator for Romania. A polite scraping worker pulls listings from
 6 source sites, a regex pipeline extracts facts from messy Romanian text (heating type,
 parking, price), everything is geocoded and matched with nearby rentable parking. Has
