@@ -33,8 +33,17 @@ Built for a client; the linked repo documents it.
 
 ### 🛠️ Tech I work with
 
-`Python` · `FastAPI` · `SQLAlchemy` · `pytest` · `SQL (SQLite / PostgreSQL)` ·
-`Java` · `C++` · `Git` · `web scraping` · `REST APIs`
+**Languages** · `Python` · `Java` · `C++` · `TypeScript` · `SQL`
+
+**Backend & APIs** · `FastAPI` · `SQLAlchemy` · `REST APIs` · `pydantic` · `web scraping`
+
+**Data & ML** · `pandas` · `NumPy` · `scikit-learn` · `XGBoost` · `LightGBM` · `Optuna` · `PyArrow`
+
+**Databases** · `SQLite` · `PostgreSQL` · `MySQL`
+
+**Desktop & UI** · `React` · `Swing (FlatLaf)` · `CustomTkinter`
+
+**Tooling** · `Git` · `pytest` · `Maven`
 
 ---
 
