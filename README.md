@@ -18,14 +18,16 @@ parking, price), everything is geocoded and matched with nearby rentable parking
 SPA with favorites, comparison, distance-to-your-address, dark mode. ~70 backend tests.
 Free to **clone and run locally** — see the repo's README.
 
-**Bot_Trading** · `Python` `Machine Learning` — *private (available on request)*
+**[TradingBot](https://github.com/Cezart3/TradingBot)** · `Python` `Machine Learning` — *code private — see the write-up*
 A day-trading bot for US30 (Dow Jones CFD) built around an Opening Range Breakout
 strategy with a machine-learning trade filter, running live against MetaTrader 5.
-Backtested and walk-forward simulated. Kept private; happy to walk through it on request.
+Backtested and walk-forward simulated. The linked repo describes how it works and
+why the code stays private.
 
-**Shower-Cabin Configurator** · `Java` — *private (available on request)*
-A configurator for custom shower cabins — computes dimensions, materials and pricing
-for a real manufacturing workflow.
+**[ShowerConfig](https://github.com/Cezart3/ShowerConfig)** · `Java` — *code private — see the write-up*
+A desktop configurator for custom shower cabins — guides the sale, computes the
+bill of materials and price (live BNR exchange rate) and exports a PDF quote.
+Built for a client; the linked repo documents it.
 
 ---
 
