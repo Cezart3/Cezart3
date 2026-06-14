@@ -13,7 +13,7 @@ a working, tested backend with a clean API.
 
 **[KiraImobiliare](https://github.com/Cezart3/KiraImobiliare)** · `Python` `FastAPI` `React` — *public, free to clone & run locally*
 A rental-listings aggregator for Romania. A polite scraping worker pulls listings from
-6 source sites, a regex pipeline extracts facts from messy Romanian text (heating type,
+5 source sites, a regex pipeline extracts facts from messy Romanian text (heating type,
 parking, price), everything is geocoded and matched with nearby rentable parking. React
 SPA with favorites, comparison, distance-to-your-address, dark mode. ~70 backend tests.
 Free to **clone and run locally** — see the repo's README.
@@ -39,6 +39,7 @@ for a real manufacturing workflow.
 ### 📫 Get in touch
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/tocaciu-cezar-0865373b6/)
+- 📸 [Instagram](https://instagram.com/tcezar3)
 - 📧 cezartocaciu233@gmail.com
 - 📍 Cluj-Napoca, Romania
 
