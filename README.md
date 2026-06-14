@@ -22,4 +22,6 @@ feature from idea to a tested backend with a clean API.
 
 [LinkedIn](https://www.linkedin.com/in/tocaciu-cezar-0865373b6/) · [Instagram](https://instagram.com/tcezar3) · cezartocaciu233@gmail.com · 📍 Cluj-Napoca
 
-<sub>Open to backend / Python roles. Private projects available on request.</sub>
+## 💼 Open to backend / Python roles — let's talk!
+
+<sub>Private projects available on request.</sub>
