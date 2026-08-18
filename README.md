@@ -23,6 +23,10 @@ evidence stands behind it — tests, out-of-sample validation, or people using i
 `Python` · `Java` · `C++` · `TypeScript` · `SQL` — `FastAPI` · `SQLAlchemy` · `pydantic` · `REST` · `web scraping`
 `pandas` · `NumPy` · `scikit-learn` · `XGBoost` · `LightGBM` · `Optuna` — `SQLite` · `MySQL` — `React` · `Swing` · `Git` · `pytest`
 
+Most of my code gets written by coding agents these days — `Claude Code`, agent
+skills and hooks. Reviewing every diff, writing the tests that gate the merge and
+being explicit about what has *not* been checked are what make that defensible.
+
 ### 📫 Get in touch
 
 [cezart3.vercel.app](https://cezart3.vercel.app) · [LinkedIn](https://www.linkedin.com/in/tocaciu-cezar-0865373b6/) · [Instagram](https://instagram.com/tcezar3) · cezartocaciu233@gmail.com · 📍 Cluj-Napoca
