@@ -23,13 +23,13 @@ faculty. Facts come out of messy Romanian ad text through regex, on purpose: I
 can audit it when it gets one wrong. ~70 backend tests. The demo runs the real
 pipeline over invented listings; real data only comes from running it yourself.
 
-**[Escape With Your Friends](https://github.com/Cezart3/Escape-With-Your-Friends)** · Unity 6, C#, FishNet, Steamworks  
+**[Escape With Your Friends](https://github.com/Cezart3/Escape-With-Your-Friends)** · Unity 6, C#, FishNet, Steamworks · *in progress*  
 A four-player co-op survival game for Steam where your friends are the main
 hazard. Host-authoritative P2P over Steam, no servers. Claude Code writes the
 C#. I set scope, write the issues, playtest and decide what is fun. 136 PRs in
 five weeks, ~70 headless test harnesses (some run host and client as two
-processes), and frame times logged against a Radeon 760M as the min spec. Not on
-Steam yet.
+processes), and frame times logged against a Radeon 760M as the min spec.
+In progress, with a Steam release planned.
 
 **[TradingBot](https://github.com/Cezart3/TradingBot)** · Python, XGBoost, LightGBM · *write-up public, code private*  
 Opening-range breakout on US30 with a calibrated ML filter, live against
