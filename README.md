@@ -1,36 +1,71 @@
-# Hi, I'm Cezar 👋
+## Cezar Tocaciu
 
-**Backend-focused software developer from Cluj-Napoca, Romania.** I build things
-that actually ship — mostly **Python** (FastAPI, data pipelines, ML), taking a
-feature from idea to a tested backend with a clean API.
+Fourth-year computer science at the Technical University of Cluj-Napoca. Mostly
+Python and backend work: scrapers, typed APIs, ML models that have to survive
+their own validation before I trust them.
 
-### 🌐 [cezart3.vercel.app](https://cezart3.vercel.app)
+These days coding agents type a lot of my code. My job is deciding what gets
+built, setting up how the agent works, and standing between its output and
+`main`: reading the diffs, writing the tests that gate the merge, and writing
+down which parts have never actually run.
 
-The long version of this page: what each system does, how it is built, and what
-evidence stands behind it — tests, out-of-sample validation, or people using it.
+**[cezart3.vercel.app](https://cezart3.vercel.app)** has the long version of
+everything below, with the evidence behind each claim.
 
-### 🚀 Featured projects
+---
 
-- **[KiraImobiliare](https://github.com/Cezart3/KiraImobiliare)** · `Python` `FastAPI` `React` — *public, free to run locally* · **[try the demo](https://kira-imobiliare.vercel.app)**
-  Rental aggregator for Romania: scrapes 5 sites, extracts facts from messy Romanian text with regex, geocodes + matches nearby parking. React SPA, ~70 tests. The demo runs the real pipeline over invented listings — real ones come from running it yourself.
-- **[TradingBot](https://github.com/Cezart3/TradingBot)** · `Python` `ML` — *code private — see the write-up*
-  US30 day-trading bot: Opening Range Breakout + a calibrated ML trade filter, live on MetaTrader 5. Backtested and walk-forward validated.
-- **[ShowerConfig](https://github.com/Cezart3/ShowerConfig)** · `Java` — *code private — see the write-up*
-  Desktop configurator for custom shower cabins: guides the sale, computes the bill of materials + price (live BNR rate), exports a PDF quote. Built for a client.
+### What I've built
 
-### 🛠️ Tech
+**[KiraImobiliare](https://github.com/Cezart3/KiraImobiliare)** · Python, FastAPI, React · [live demo](https://kira-imobiliare.vercel.app)  
+Rental aggregator for Romania. Scrapes five listing sites and adds the filters
+none of them have: own boiler or district heating, parking, walking time to your
+faculty. Facts come out of messy Romanian ad text through regex, on purpose: I
+can audit it when it gets one wrong. ~70 backend tests. The demo runs the real
+pipeline over invented listings; real data only comes from running it yourself.
 
-`Python` · `Java` · `C++` · `TypeScript` · `SQL` — `FastAPI` · `SQLAlchemy` · `pydantic` · `REST` · `web scraping`
-`pandas` · `NumPy` · `scikit-learn` · `XGBoost` · `LightGBM` · `Optuna` — `SQLite` · `MySQL` — `React` · `Swing` · `Git` · `pytest`
+**[Escape With Your Friends](https://github.com/Cezart3/Escape-With-Your-Friends)** · Unity 6, C#, FishNet, Steamworks  
+A four-player co-op survival game for Steam where your friends are the main
+hazard. Host-authoritative P2P over Steam, no servers. Claude Code writes the
+C#. I set scope, write the issues, playtest and decide what is fun. 136 PRs in
+five weeks, ~70 headless test harnesses (some run host and client as two
+processes), and frame times logged against a Radeon 760M as the min spec. Not on
+Steam yet.
 
-Most of my code gets written by coding agents these days — `Claude Code`, agent
-skills and hooks. Reviewing every diff, writing the tests that gate the merge and
-being explicit about what has *not* been checked are what make that defensible.
+**[TradingBot](https://github.com/Cezart3/TradingBot)** · Python, XGBoost, LightGBM · *write-up public, code private*  
+Opening-range breakout on US30 with a calibrated ML filter, live against
+MetaTrader 5 on a demo account. Purged time-ordered CV, isotonic calibration,
+and a walk-forward test that killed the configuration with the prettier win
+rate. Has never traded real money.
 
-### 📫 Get in touch
+**[RankUp](https://github.com/Cezart3/RankUp)** · TypeScript, React, WebAssembly  
+Chrome extension that parses opponents' FACEIT CS2 demos inside the browser
+(Rust parser compiled to WASM, a pool of web workers) and plots where each of
+them usually plays. No backend and no telemetry. 400+ Vitest tests.
 
-[cezart3.vercel.app](https://cezart3.vercel.app) · [LinkedIn](https://www.linkedin.com/in/tocaciu-cezar-0865373b6/) · [Instagram](https://instagram.com/tcezar3) · cezartocaciu233@gmail.com · 📍 Cluj-Napoca
+**[ShowerConfig](https://github.com/Cezart3/ShowerConfig)** · Java, Swing, MySQL · *client work, code private*  
+Desktop configurator for a shower-cabin manufacturer: walks the salesperson
+through the build, prices it at the day's BNR exchange rate and exports a PDF
+quote. Replaced a spreadsheet and is used every day.
 
-## 💼 Open to backend / Python roles — let's talk!
+### Contributing to
 
-<sub>Private projects available on request.</sub>
+**[unlost-in-translation-mobile](https://github.com/radumarias/unlost-in-translation-mobile)**  
+[Radu Marias](https://github.com/radumarias)' open-source AI translator. I
+contribute, he reviews and merges. My part: restructuring it into a Kotlin
+Multiplatform project that also runs in the browser, a security audit, and an
+end-to-end encrypted two-phone conversation mode.
+
+---
+
+### Tools
+
+Comfortable: `Python` `FastAPI` `SQLAlchemy` `pytest` `pandas` `NumPy` `scikit-learn` `XGBoost` `SQL` `Git`  
+Shipped with, still look things up: `Java` `TypeScript` `React` `MySQL` `SQLite` `C++` `LightGBM` `Optuna`  
+Learning on real projects: `Kotlin Multiplatform` `Unity` `C#`  
+How I work: `Claude Code` · agent skills and hooks · tests as the merge gate
+
+### Contact
+
+cezartocaciu233@gmail.com · [LinkedIn](https://www.linkedin.com/in/tocaciu-cezar-0865373b6/) · [Instagram](https://instagram.com/tcezar3) · [cezart3.vercel.app](https://cezart3.vercel.app) · Cluj-Napoca
+
+Looking for a backend or ML internship. Private repos available on request.
