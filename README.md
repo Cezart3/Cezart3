@@ -11,8 +11,8 @@ evidence stands behind it — tests, out-of-sample validation, or people using i
 
 ### Featured projects
 
-- **[kira-mcp](https://github.com/Cezart3/kira-mcp)** · `Python` `MCP` — *open source, MIT*
-  Ask your AI (Claude, Cursor, VS Code, Codex…) to find a flat to rent anywhere in Romania: an MCP server + CLI + agent skill that searches 3 sites live for all 3,181 localities and reads heating, parking and walking distance out of the ad text. 70+ tests, CI on Linux/Windows, weekly checks against the live sites.
+- **[kira-mcp](https://github.com/Cezart3/kira-mcp)** · `Python` `MCP` — *open source, MIT* · **[on PyPI](https://pypi.org/project/kira-rentals-mcp/)** + the official MCP Registry
+  Ask your AI (Claude, Cursor, VS Code, Codex…) to find a flat to rent anywhere in Romania: an MCP server + CLI + agent skill that searches 3 sites live for all 3,181 localities and reads heating, parking and walking distance out of the ad text. 70+ tests, CI on Linux/Windows, weekly checks against the live sites. One line to try it: `claude mcp add kira -s user -- uvx kira-rentals-mcp`
 - **[KiraImobiliare](https://github.com/Cezart3/KiraImobiliare)** · `Python` `FastAPI` `React` — *public, free to run locally* · **[try the demo](https://kira-imobiliare.vercel.app)**
   Rental aggregator for Romania: scrapes 5 sites, extracts facts from messy Romanian text with regex, geocodes + matches nearby parking. React SPA, ~70 tests. The demo runs the real pipeline over invented listings — real ones come from running it yourself.
 - **[Escape With Your Friends](https://github.com/Cezart3/Escape-With-Your-Friends)** · `Unity` `C#` — *in progress, Steam release planned*
