@@ -14,10 +14,10 @@ evidence stands behind it — tests, out-of-sample validation, or people using i
 - **[KiraImobiliare](https://github.com/Cezart3/KiraImobiliare)** · `Python` `FastAPI` `React` — *public, free to run locally* · **[try the demo](https://kira-imobiliare.vercel.app)**
   Rental aggregator for Romania: scrapes 5 sites, extracts facts from messy Romanian text with regex, geocodes + matches nearby parking. React SPA, ~70 tests. The demo runs the real pipeline over invented listings — real ones come from running it yourself.
 - **[Escape With Your Friends](https://github.com/Cezart3/Escape-With-Your-Friends)** · `Unity` `C#` — *in progress, Steam release planned*
-  4-player co-op survival game, host-authoritative P2P over Steam (FishNet). Claude Code writes the C#; I direct, playtest and review. ~70 headless test harnesses.
+  4-player co-op survival game, host-authoritative P2P over Steam (FishNet). AI-assisted build: I own the architecture, netcode design, playtesting and review. ~70 headless test harnesses.
 - **[TradingBot](https://github.com/Cezart3/TradingBot)** · `Python` `ML` — *code private — see the write-up*
   US30 day-trading bot: Opening Range Breakout + a calibrated ML trade filter, live on MetaTrader 5. Backtested and walk-forward validated.
-- **[RankUp](https://github.com/Cezart3/RankUp)** · `TypeScript` `React` `WASM`
+- **RankUp** · `TypeScript` `React` `WASM` — *published Chrome extension, code private*
   Chrome extension that parses opponents' FACEIT CS2 demos in the browser and maps where each of them plays. No backend, 400+ tests.
 - **[ShowerConfig](https://github.com/Cezart3/ShowerConfig)** · `Java` — *code private — see the write-up*
   Desktop configurator for custom shower cabins: guides the sale, computes the bill of materials + price (live BNR rate), exports a PDF quote. Built for a client.
@@ -27,9 +27,9 @@ evidence stands behind it — tests, out-of-sample validation, or people using i
 `Python` · `Java` · `C++` · `TypeScript` · `SQL` — `FastAPI` · `SQLAlchemy` · `pydantic` · `REST` · `web scraping`
 `pandas` · `NumPy` · `scikit-learn` · `XGBoost` · `LightGBM` · `Optuna` — `SQLite` · `MySQL` — `React` · `Swing` · `Git` · `pytest`
 
-Most of my code gets written by coding agents these days — `Claude Code`, agent
-skills and hooks. Reviewing every diff, writing the tests that gate the merge and
-being explicit about what has *not* been checked are what make that defensible.
+I work AI-native — `Claude Code`, agent skills and hooks — and I own the result:
+architecture decisions, reviewing every diff, writing the tests that gate the merge
+and being explicit about what has *not* been checked.
 
 ### Get in touch
 
